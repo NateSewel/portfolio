@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICONSCOUT -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- SWIPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- ANIMATE ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>My Portfolio Website</title>
+  </head>
+  <body>
+    <!-- ################ NAVBAR SECTION ############### -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">PEGNANT</a>
+        <button type="reset" title="icon/logo" class="nav__theme-btn">
+          <i class="uil uil-moon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ################ FLOATING NAVBAR ############### -->
+    <menu class="floating__nav">
+      <a title="homepage" href="#" class="active"
+        ><i class="uil uil-estate"></i
+      ></a>
+      <a title="resume" href="#resume"><i class="uil uil-user"></i></a>
+      <a title="projects" href="#projects"><i class="uil uil-images"></i></a>
+      <a title="faqs" href="#faqs"><i class="uil uil-smile-dizzy"></i></a>
+      <a title="contact" href="#contact"><i class="uil uil-phone"></i></a>
+    </menu>
+
+    <!-- ################ HEADER ############### -->
+    <header>
+      <div class="container header__container">
+        <div class="header__image" data-aos="fade-up" data-aos-delay="800">
+          <img src="./assets/portrait.jpg" alt="Header image" />
+        </div>
+        <h5 data-aos="fade-in">Hi, I'm Nate</h5>
+        <h1 data-aos="fade-in"><span>Full-Stack Developer</span> <br /></h1>
+        <p class="header_p" data-aos="fade-in">
+          I build dynamic web and mobile applications to enhance user
+          experiences and streamline interactions for my clients. Collaborate
+          with me to bring your vision to life with innovative web solutions and
+          advanced AI automation technology.
+        </p>
+        <div class="header__cta" data-aos="fade-in">
+          <a href="#projects" class="btn">My Projects</a>
+          <a href="#contact" class="btn primary">Hire me</a>
+        </div>
+
+        <menu class="header__socials">
+          <a
+            rel="noopener"
+            target="_blank"
+            title="github"
+            href="https://github.com/NateSewel"
+            ><i class="uil uil-github-alt"></i
+          ></a>
+          <a
+            rel="noopener"
+            target="_blank"
+            title="facebook"
+            href="https://web.facebook.com/prumzy"
+            ><i class="uil uil-facebook-f"></i
+          ></a>
+          <a
+            rel="noopener"
+            target="_blank"
+            title="linkedin"
+            href="https://www.linkedin.com/in/nathaniel-isewede-4a1a081b4/"
+            ><i class="uil uil-linkedin-alt"></i
+          ></a>
+          <a
+            rel="noopener"
+            target="_blank"
+            title="instagram"
+            href="https://www.instagram.com/nate_isewede/?hl=en"
+            ><i class="uil uil-instagram"></i
+          ></a>
+        </menu>
+      </div>
+    </header>
+
+    <!-- ################ RESUME ############### -->
+    <section id="resume">
+      <div
+        class="container resume__container"
+        data-aos="fade-in"
+        data-aos-delay="200"
+      >
+        <div class="resume__left">
+          <h1>Why hire me?</h1>
+          <p>
+            Because I can transform your vision with innovative web and mobile
+            solutions.
+          </p>
+          <menu>
+            <button type="button" class="btn primary experience__btn">
+              Experience
+            </button>
+            <button type="button" class="btn education__btn">Education</button>
+            <button type="button" class="btn skills__btn">Skills</button>
+            <button type="button" class="btn about__btn">About me</button>
+          </menu>
+        </div>
+        <div class="resume__right"></div>
+      </div>
+    </section>
+
+    <!-- ################ PROJECTS ############### -->
+    <section class="projects" id="projects">
+      <h1>Recent Projects</h1>
+      <p>
+        Each project highlights my commitment to delivering innovative
+        solutions, demonstrating my ability to tackle complex challenges and
+        create impactful digital experiences.
+      </p>
+      <menu class="projects__categories">
+        <button type="button" class="btn" data-filter="*">All</button>
+        <button type="button" class="btn" data-filter=".frontend">
+          Frontend
+        </button>
+        <button type="button" class="btn" data-filter=".backend">
+          Backend
+        </button>
+        <button type="button" class="btn" data-filter=".fullstack">
+          Fullstack
+        </button>
+      </menu>
+      <div
+        class="container projects__container"
+        data-aos="fade-in"
+        data-aos-delay="200"
+      >
+        <!-- Project 1 -->
+        <article class="project mix fullstack" data-order="1">
+          <div class="project__image">
+            <img src="./assets/project_1.jpg" alt="Project One" />
+          </div>
+          <h5>Real Estate (Fullstack)</h5>
+          <p>
+            Beautiful UI/UX Real Estate website designed and implemented RESTful
+            APIs using Nodejs, Express, Tailwind CSS, and ReactJS. Ensuring
+            seamless communication between Frontend and Backend system.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project1"
+              href="https://real-estate-new-frontend.onrender.com"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project1"
+              href="https://github.com/NateSewel/real-estate-new-frontend"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 2 -->
+        <article class="project mix frontend" data-order="2">
+          <div class="project__image">
+            <img src="./assets/project_2.jpg" alt="Project Two" />
+          </div>
+          <h5>Vet Clinic (Frontend)</h5>
+          <p>
+            A Vet clinic website designed with ReactJS, Tailwind CSS, SwiperJS.
+            Ensuring seamless communication between Frontend and Backend system.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project2"
+              href="https://rainbow-liger-d89f84.netlify.app"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project2"
+              href="https://github.com/NateSewel/agrovet-website"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 3 -->
+        <article class="project mix fullstack" data-order="3">
+          <div class="project__image">
+            <img src="./assets/project1.jpg" alt="Project Three" />
+          </div>
+          <h5>Travel Guide (Fullstack)</h5>
+          <p>
+            Designed and implemented RESTful APIs using Nodejs, Express, and
+            ReactJS, and AstraDB, ensuring seamless communication between
+            Frontend and Backend system.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project3"
+              href="https://github.com/NateSewel/travel-app/tree/main/react-travel-app"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project3"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 4 -->
+        <article class="project mix frontend" data-order="4">
+          <div class="project__image">
+            <img src="./assets/project2.png" alt="Project Four" />
+          </div>
+          <h5>Meet your favorite Pets(Frontend)</h5>
+          <p>
+            A Simple Website for Animal Lovers built using HTML, CSS, JavaScript
+            and Bootstrap.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project4"
+              href="https://natesewel.github.io/dog-breeds-sales.github.io/"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project4"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 5 -->
+        <article class="project mix fullstack" data-order="5">
+          <div class="project__image">
+            <img src="./assets/project3.png" alt="Project Five" />
+          </div>
+          <h5>Split Bill App (Frontend)</h5>
+          <p>
+            A Web app for splitting bills amongst friends during hangouts. I
+            built it using ReactJS and Tailwind CSS.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project5"
+              href="https://natesewel.github.io/split-bill-react/"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project5"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 6 -->
+        <article class="project mix frontend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project4.jpg" alt="Project Six" />
+          </div>
+          <h5>E-Commerce Website(Fullstack)</h5>
+          <p>
+            Complete Responsive E-commerce Website integrated with Stripe
+            Payment Gateway.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project6"
+              href="https://github.com/NateSewel"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project6"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 7 -->
+        <article class="project mix fullstack" data-order="7">
+          <div class="project__image">
+            <img src="./assets/project5.jpg" alt="Project Seven" />
+          </div>
+          <h5>To-do List (Fullstack)</h5>
+          <p>
+            A Todo List Application Built using Reactjs, Nodejs, and MongoDB.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project7"
+              href="https://github.com/NateSewel/node-todo-list-app"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project7"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 8 -->
+        <article class="project mix backend" data-order="8">
+          <div class="project__image">
+            <img src="./assets/project6.jpg" alt="Project Eight" />
+          </div>
+          <h5>A Blogging Web App. (Fullstack)</h5>
+          <p>
+            A fully functioning Blog Website built with ReactJS, Nodejs, MongoDB
+            and more.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project8"
+              href="https://github.com/NateSewel"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project8"
+              href="https://github.com/NateSewel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+        <!-- Project 9 -->
+        <article class="project mix backend" data-order="8">
+          <div class="project__image">
+            <img src="./assets/project_9.png" alt="Project Eight" />
+          </div>
+          <h5>AI Therapy Chatbot. (Fullstack)</h5>
+          <p>
+            A fully functioning AI Therapy Chatbot built with ReactJS, Nodejs,
+            MongoDB and more.
+          </p>
+          <div class="project__cta">
+            <a
+              title="project9"
+              href="https://app.vectorshift.ai/chatbots/deployed/672fe9da5c6a749fbb733cea"
+              class="btn primary"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-link"></i
+            ></a>
+            <a
+              title="project9"
+              href="https://github.com/NateSewel/react-ai-chatbot-vercel"
+              class="btn"
+              rel="noopener"
+              target="_blank"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ################ TESTIMONIALS ############### -->
+    <section id="swiper">
+      <h1>What my clients say</h1>
+      <p>
+        Discover what clients have to say about my expertise and how my work has
+        transformed their businesses.
+      </p>
+      <div class="container swiper">
+        <div class="swiper-wrapper">
+          <figure class="swiper-slide">
+            <figcaption>
+              Nate's dedication and technical prowess made our project a
+              success. His work is exceptional and reliable.
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar1.jpg" alt="Client One" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>Margaret Epoche</h5>
+                <small>e-commerce owner</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Working with Nate was a game-changer. His AI chatbot integration
+              significantly improved our customer service.
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar2.jpg" alt="Client Two" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>Michael Brown</h5>
+                <small>IT Manager at FinTech Corp.</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Nate's web development skills brought our vision to life. The
+              functionality and design exceeded our expectations!
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar3.jpg" alt="Client Three" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>David Mike</h5>
+                <small>HealthTech Solutions</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Nate's expertise in Fullstack Development and AI Chatbots
+              transformed our website and customer interaction. Highly
+              recommended!
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar4.jpg" alt="Client Four" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>Zarah Khalid</h5>
+                <small>Founder of E-Shop Solutions</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Nate delivered a seamless, responsive website that boosted our
+              online sales. His skills are top-notch!
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar5.jpg" alt="Client Five" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>Sophia Green</h5>
+                <small>Marketing Head at Digital Dynamics</small>
+              </div>
+            </div>
+          </figure>
+          <figure class="swiper-slide">
+            <figcaption>
+              Nate's web development skills brought our vision to life. The
+              functionality and design exceeded our expectations!
+            </figcaption>
+            <div class="swiper__client">
+              <div class="swiper__client-avatar">
+                <img src="./assets/avatar6.jpg" alt="Client Six" />
+              </div>
+              <div class="swiper__client-details">
+                <h5>Emily Johnson</h5>
+                <small>Owner of Creative Designs</small>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ################ FAQS ############### -->
+
+    <section id="faqs">
+      <h1>Frequently Asked Questions</h1>
+      <p>
+        Explore detailed answers to common inquiries about Nate's Fullstack
+        Development and AI Chatbot expertise.
+      </p>
+      <menu class="container faqs__container">
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="200">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>What's your hourly rate?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>$25 per hour. I'm also open to negotiations</p>
+          </div>
+        </li>
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="200">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>How much do you charge per project?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>$100 - $1,800</p>
+          </div>
+        </li>
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="400">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>Do you work alone or as a team?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>
+              I work as a Team pending on how big
+              the project is.
+            </p>
+          </div>
+        </li>
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="400">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>What are your off days?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>Saturdays and Sundays.</p>
+          </div>
+        </li>
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="600">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>Are you available for collaborations?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>Yes</p>
+          </div>
+        </li>
+        <li class="faqs__item" data-aos="fade-in" data-aos-delay="600">
+          <div class="faqs__item-top">
+            <span class="faq__icon"><i class="uil uil-angle-down"></i></span>
+            <h5>What's your average return time?</h5>
+          </div>
+          <div class="faqs__item-bottom">
+            <span></span>
+            <p>
+              It depends on how large the project is and how much client is
+              willing to pay.
+            </p>
+          </div>
+        </li>
+      </menu>
+    </section>
+
+    <!-- ################ CONTACT ############### -->
+
+    <section id="contact">
+      <div class="container contact__container">
+        <menu class="contact__options">
+          <a
+            href="mailto:nathanielisewede@gmail.com"
+            class="contact__option"
+            target="_blank"
+            rel="noopener"
+            title="facebook"
+          >
+            <i class="uil uil-envelope"></i>
+          </a>
+          <a
+            href="https://www.messenger.com/t/08060043487"
+            class="contact__option"
+            target="_blank"
+            rel="noopener"
+            title="messenger"
+          >
+            <i class="uil uil-facebook-messenger-alt"></i>
+          </a>
+          <a
+            href="https://wa.me/+2348060043487"
+            class="contact__option"
+            target="_blank"
+            rel="noopener"
+            title="whatsapp"
+          >
+            <i class="uil uil-whatsapp"></i>
+          </a>
+          <a
+            href="tel:+2348060043487"
+            class="contact__option"
+            target="_blank"
+            rel="noopener"
+            title="tel"
+          >
+            <i class="uil uil-phone"></i>
+          </a>
+        </menu>
+        <form
+          action="https://formsubmit.co/nathanielisewede@gmail.com"
+          method="POST"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <input type="text" name="Name" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email Address" />
+          <textarea
+            rows="7"
+            name="Message"
+            id=""
+            placeholder="Message"
+          ></textarea>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 2000, offset: 80 });
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>
