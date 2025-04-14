@@ -24,16 +24,23 @@ const experienceContent = `
             From designing and building dynamic websites to creating advanced chatbot, I excel in leveraging cutting-edge technologies to achieve outstanding results.
           </p>
           <ul>
-           <li>
-              <h6>Dec 2023 - Present</h6>
+
+            <li>
+              <h6>Feb 2025 - Present</h6>
               <h5>Full-Stack Developer</h5>
-              <p>Lofai Inc</p>
+              <p>Mustard</p>
             </li>
 
             <li>
               <h6>July 2024 - November 2024</h6>
-              <h5>AI Chatbot Developer <br/> (Freelance)</h5>
+              <h5>AI Chatbot Developer <br/> (Contract-based)</h5>
               <p>Helpnonymous</p>
+            </li>
+
+           <li>
+              <h6>Dec 2023 - jan 2025</h6>
+              <h5>Full-Stack Developer</h5>
+              <p>Lofai Inc</p>
             </li>
 
             <li>
@@ -61,7 +68,7 @@ resumeRight.innerHTML = experienceContent;
 const educationBtn = document.querySelector(".education__btn");
 const educationContent = `
 <h4>Education</h4>
-    <p> Fullstack Web Development Certification, AI and Chatbot Certification, and various online courses in advanced programming, AI, and web technologies.</p>
+    <p> Fullstack Web Development Certification, AI Agents and Chatbot Certification, and various online courses in advanced programming, AI, and web technologies.</p>
     <ul>
       <li>
         <h5>College Education</h5>
@@ -100,7 +107,7 @@ educationBtn.addEventListener("click", () => {
 // Skills
 const skillsContent = `<h4>Skills</h4>
     <p>
-      Proficient in frontend and backend technologies including HTML, CSS, JavaScript, React, Node.js, MongoDB, MySQL, RESTful API, AI Chatbot frameworks and more.
+      Proficient in frontend and backend technologies including HTML, CSS, Tailwind CSS, JavaScript,Next.js, React.js, Node.js, Express.js, MongoDB, MySQL, RESTful API, AI Chatbot and Automation framework and more.
     </p>
     <ul>
       <li><img src="./assets/react.webp" alt="ReactJS Logo" /></li>
@@ -120,6 +127,9 @@ const skillsContent = `<h4>Skills</h4>
       <li><img src="./assets/firebase.png" alt="Firebase Logo" /></li>
       <li><img src="./assets/git.png" alt="Git Logo" /></li>
       <li><img src="./assets/heroku.png" alt="Heroku Logo" /></li>
+      <li><img src="./assets/streamlit.png" alt="Streamlit Logo" /></li>
+      <li><img src="./assets/langchain-text.png" alt="Langchain Logo" /></li>
+      <li><img src="./assets/langchain-color.png" alt="Langchain Logo" /></li>
       
     </ul>`;
 
@@ -154,7 +164,7 @@ const aboutContent = `<h4>About me</h4>
                     </li>
                     <li>
                         <h6>Language:</h6>
-                        <h5>English</h5>
+                        <h5>English & French</h5>
                     </li>
                     <li>
                         <h6>Phone:</h6>
